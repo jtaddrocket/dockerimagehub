@@ -2,7 +2,7 @@ name: CI/CD for Dockerized Flask App # <- name of the workflow that we are speci
 
 on:
   push:
-    branches: [ manin ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
